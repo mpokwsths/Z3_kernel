@@ -1,0 +1,1 @@
+cmd_crypto/cryptomgr.o := /home/mpokwsths/android/rom/aosp/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9/bin/arm-linux-androideabi-ld -EL    -r -o crypto/cryptomgr.o crypto/algboss.o crypto/testmgr.o 

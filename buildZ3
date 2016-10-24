@@ -1,0 +1,7 @@
+export ARCH=arm
+export CROSS_COMPILE=~/android/rom/aosp/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9/bin/arm-linux-androideabi-
+export PATH=/usr/lib/ccache/:$PATH
+make clean
+make shinano_leo_defconfig
+make -j4
+cp arch/arm/boot/zImage-dtb ~/Desktop/zImage
